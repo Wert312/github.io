@@ -1,0 +1,343 @@
+body //Нужно, чтобы scrollspy работал
+	position: relative
+	z-index: 2
+
+
+.main //Главная страница
+	width: 100%
+	height: auto
+	background: url(../img/main-background.jpg)
+	background-size: cover
+	&_text
+		h1
+			font-size: 90px	
+		p
+			font-size: 25px	
+		padding-top: 12%	
+	 color: #fff
+	 text-align: center		
+
+.navigation_panel //Меню
+ width: 100%	
+ position: fixed
+ margin-bottom: 70px
+ z-index: 1		
+ padding: 0
+
+#main_menu
+	background-color: #E9967A
+ 
+.navbar-toggler
+ border: 1px solid black	 
+
+.navbar-brand
+	font-size: 15px
+
+.mail //Написать нам
+	margin-right: 30px	 
+
+.phones //Номера телефонов
+	color: white
+	font-size: 15px
+
+
+
+.about_us //Начало секции "О нас"
+	height: 450px
+
+.about_title
+	padding-top: 60px
+	text-align: center	
+.about__text
+	text-align: justify
+	font-size: 20px
+	padding-bottom: 30px
+
+.paw
+	width: 20px
+	height: 20px
+
+.info_first //Преимущества
+	p
+	 margin-bottom: 1rem	
+	width: 100%
+	height: 600px
+	padding-top: 80px
+	display: block
+	background-color: #FFE4C4
+
+.info_second
+	p
+		margin-bottom: 0rem
+	width: 100%
+	height: 560px
+	display: block
+	padding-top: 80px
+
+
+.gallery
+	background-color: #FFE4C4
+	height: 700px
+	text-align: center
+ padding-top: 60px
+	
+
+	
+#container
+	display: block
+	width: 100%
+	height: 500px
+	padding-bottom: 30px	
+
+
+.prices //Услуги и цены
+	width: 100%
+	height: 650px
+	padding-top: 60px
+	display: block
+	&__title
+		text-align: center
+
+.table-responsive 
+	text-align: center//Таблица
+	th
+		font-size: 19px
+	font-size: 15px
+	span
+		font-size: 17px	
+
+.map //Схема проезда
+	width: 100%
+	height: auto
+	padding-bottom: 40px		
+	text-align: center
+	background-color: #FFE4C4	
+
+.map_title
+	padding-top: 60px	
+	padding-bottom: 10px	
+	text-align: center
+
+.map_google
+	width: 100%
+
+.map_text
+	h3
+		padding-top: 20px
+		text-align: center
+		margin-bottom: 40px
+	text-align: left
+
+.contacts__form //Форма обратной связи
+	width: 100%
+	height: 630px
+	display: block
+	padding-bottom: 50px
+
+.form_send
+	background-color: #E9967A
+	border-radius: 5px
+	color: #fff
+
+.contacts_title
+	text-align: center
+	margin-bottom: 30px
+	padding-top: 60px
+
+.rights
+	width: 100%
+	height: 80px
+	background-color: #E9967A
+	color: #fff
+	text-align: center
+	
+	
+.development
+	p
+		margin-bottom: 0rem
+	color: #000
+	a
+		color: #000
+	a:hover
+		color: blue
+		text-decoration: none
+.the_rights	
+	p
+		margin-bottom: 0rem
+ color: #fff
+
+@media (max-width: 500px)
+ .main
+ 	height: 460px
+ 	background-position: center
+
+	.main_text
+		margin-top: 40px	
+		h1
+			font-size: 80px
+			padding-top: 30px		
+
+	.about__text
+		text-align: left
+		font-size: 17px	
+
+	.about_us
+		height: auto	
+
+	.info_first
+		height: auto
+
+	.first_slide__image
+		img
+			max-width: 100%
+			max-height: 100%	
+	
+	.first_slide__text
+		h3
+			text-align: center
+			margin-bottom: 20px	
+		p
+			text-align: left	
+
+	.info_second
+		height: auto
+
+	.second_slide__image
+		margin-top: -30px	
+		img
+			max-width: 100%	
+			max-height: 100%
+			padding-bottom: 30px
+	.second_slide__text
+		margin-top: -50px
+		margin-bottom: 30px		
+		h3
+			text-align: center
+	
+	.gallery
+		height: auto
+	#container
+		height: 320px	
+
+	.prices	
+		height: auto
+	.prices__title
+		height: auto
+	.prices__table
+		height: auto
+ .table
+ 	height: auto
+ 	width: 100%
+ .table-responsive
+ 	height: auto
+ 	width: 100%
+
+
+	.rules
+		p
+	  margin-bottom: 0rem
+	  padding-bottom: 20px			
+		text-align: left	
+		height: auto
+
+	.map
+		height: auto	
+
+	.map_text
+		height: auto
+
+	.map_title
+		margin-top: -10px	
+		margin-bottom: 30px	
+	
+	.map_google
+		height: auto
+	.contacts__form
+		height: auto
+
+@media (min-width: 700px)
+ .main
+ 	height: 490px
+		&_text
+			margin-top: 50px	
+ img
+  max-width: 100%	
+ .info_first
+  height: auto
+  padding-top: 60px
+  padding-left: 0px	
+ 
+
+
+ .rules
+ 	p
+ 		margin-bottom: 0rem	
+  height: auto
+  padding-bottom: 30px	 
+
+ .prices
+ 	height: auto
+
+ .contacts__form
+ 	height: auto	 		 
+
+	.second_slide__image
+  img
+		 height: 450px
+ .first_slide__image
+ 	img
+ 		height: 480px
+ 		padding-bottom: 30px		
+
+@media (max-width: 1000px)	  
+	.first_slide__image
+	 img
+	  height: 480px
+	  padding-bottom: 30px	
+	.second_slide__image
+	 img
+	  height: 440px	  
+
+@media (min-width: 1200px)
+ .main
+  height: 650px  
+ .main_text
+ .about_us
+  height: 400px	
+ 	margin-top: 90px	
+ .first_slide__image
+  img
+   height: 480px	
+ .prices
+  height: auto  
+ .second_slide__image
+  img
+  	padding-left: 90px
+   height: 480px
+   padding-bottom: 40px  
+
+@media (min-width: 1400px)
+ .main
+ 	height: 620px
+ .first_slide__image
+  img
+   height: 520px	
+ .second_slide__image
+  img
+   height: 480px 
+   padding-bottom: 40px
+	.main_text
+		margin-top: 30px	
+
+@media (min-width: 2000px)
+ .main
+ 	height: 770px
+ 	background-position: center
+ .first_slide__image
+  img
+   height: 480px	
+ .second_slide__image
+  img
+   height: 480px 
+ .main_text
+ 	margin-top: -50px	  
